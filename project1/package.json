@@ -1,0 +1,28 @@
+{
+  "name": "babel-demo",
+  "version": "1.0.0",
+  "description": "demo on learning babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "babel src -d resource"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishsinghraj/learn-babel.git"
+  },
+  "keywords": [
+    "Babel"
+  ],
+  "author": "Manish Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manishsinghraj/learn-babel/issues"
+  },
+  "homepage": "https://github.com/manishsinghraj/learn-babel#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.6",
+    "@babel/preset-env": "^7.23.6"
+  }
+}
